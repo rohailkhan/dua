@@ -30,11 +30,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".one"
-            android:label="شفاءکی دعاوں کا تعارف اور آداب
-\n Prayers for Cure,Introduction"/>
-        <activity android:name=".two" />
-        <activity android:name=".three" />
-        <activity android:name=".four"></activity>
+            android:label="Duas for Health ,Introduction"/>
+        <activity android:name=".two"
+            android:label="Dua for Health #1 to #20"/>
+        <activity android:name=".three"
+            android:label="Dua for Health #21 to #40"/>
+        <activity android:name=".four"
+            android:label="Cure from Magic and Jinnat(Shayateen)"></activity>
     </application>
 
 </manifest>

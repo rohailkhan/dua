@@ -29,8 +29,20 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
     }
-    public void onclick (View myview){
+    public void onclick1 (View myview){
         Intent i=new Intent(this,one.class);
         startActivity(i);
+    }
+    public void onclick2(View myview){
+        Intent y=new Intent(this,two.class);
+        startActivity(y);
+    }
+    public void onclick3(View myview){
+        Intent y=new Intent(this,two.class);
+        startActivity(y);
+    }
+    public void onclick4(View myview){
+        Intent y=new Intent(this,two.class);
+        startActivity(y);
     }
 }

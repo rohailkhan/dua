@@ -26,28 +26,28 @@
         android:id="@+id/one"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
-        android:text="شفاءکی دعاوں کا تعارف اور آداب"
-        android:onClick="onclick" />
+        android:text="Duas for Health ,Introduction"
+        android:onClick="onclick1" />
 
     <TextView
         android:id="@+id/two"
         style="@style/CategoryStyle"
         android:background="@color/category_family"
-        android:text="@string/category_family"
-        android:onClick="onclick"/>
+        android:text="Dua for Health #1 to #20"
+        android:onClick="onclick2"/>
 
     <TextView
         android:id="@+id/three"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
-        android:text="@string/category_colors"
-        android:onClick="onclick"/>
+        android:text="Duas for Health #21 to #40"
+        android:onClick="onclick3"/>
 
     <TextView
         android:id="@+id/four"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
-        android:text="nn"
-        android:onClick="onclick"/>
+        android:text="Special Dua for Cure from Magic and Jinnat(Shayateen)"
+        android:onClick="onclick4"/>
 
 </LinearLayout>
