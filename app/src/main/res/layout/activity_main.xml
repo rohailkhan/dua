@@ -27,24 +27,24 @@
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
         android:text="شفاءکی دعاوں کا تعارف اور آداب"
-        android:onClick="onclick"/>
+        android:onClick="onclick" />
 
     <TextView
-        android:id="@+id/family"
+        android:id="@+id/two"
         style="@style/CategoryStyle"
         android:background="@color/category_family"
         android:text="@string/category_family"
         android:onClick="onclick"/>
 
     <TextView
-        android:id="@+id/colors"
+        android:id="@+id/three"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
         android:text="@string/category_colors"
         android:onClick="onclick"/>
 
     <TextView
-        android:id="@+id/phrases"
+        android:id="@+id/four"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
         android:text="nn"

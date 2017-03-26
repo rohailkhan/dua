@@ -29,7 +29,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".one" />
+        <activity android:name=".one"
+            android:label="شفاءکی دعاوں کا تعارف اور آداب
+\n Prayers for Cure,Introduction"/>
         <activity android:name=".two" />
         <activity android:name=".three" />
         <activity android:name=".four"></activity>
