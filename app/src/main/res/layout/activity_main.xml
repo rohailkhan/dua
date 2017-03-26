@@ -23,10 +23,11 @@
     tools:context="com.example.android.miwok.MainActivity">
 
     <TextView
-        android:id="@+id/numbers"
+        android:id="@+id/one"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
-        android:text="@string/category_numbers" />
+        android:text="شفاءکی دعاوں کا تعارف اور آداب"
+        android:onClick="onclick"/>
 
     <TextView
         android:id="@+id/family"
@@ -44,6 +45,6 @@
         android:id="@+id/phrases"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
-        android:text="@string/category_phrases" />
+        android:text="nn" />
 
 </LinearLayout>
