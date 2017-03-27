@@ -34,20 +34,20 @@
         style="@style/CategoryStyle"
         android:background="@color/category_family"
         android:text="Dua for Health #1 to #20"
-        android:onClick="onclick2"/>
+        />
 
     <TextView
         android:id="@+id/three"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
         android:text="Duas for Health #21 to #40"
-        android:onClick="onclick3"/>
+        />
 
     <TextView
         android:id="@+id/four"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
         android:text="Special Dua for Cure from Magic and Jinnat(Shayateen)"
-        android:onClick="ohonclick4"/>
+        />
 
 </LinearLayout>

@@ -20,6 +20,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,7 +39,39 @@ public class MainActivity extends AppCompatActivity {
         TextView myview=(TextView)findViewById(R.id.one);
         myview.setOnClickListener(MyOneListener);
 
+        TextView mytwoview=(TextView)findViewById(R.id.two);
+        mytwoview.setOnClickListener(new TwoListener());
+
+        TextView mythreeview=(TextView)findViewById(R.id.three);
+        mythreeview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View myview) {
+                Toast.makeText(MainActivity.this, "this is a toast", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        TextView myfourview=(TextView)findViewById(R.id.four);
+        myfourview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View myview) {
+                Intent fourthIntent=new Intent(MainActivity.this,four.class);
+                startActivity(fourthIntent);
+            }
+        });
+
     }
+
+
+
+//        mythreeview.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void OnClick(View myview){
+//                Toast.makeText(MainActivity.this,"This is 3rd toast " ,Toast.LENGTH_SHORT).show();
+//
+//            }
+//        });
+
+
 
 
     public void onclick2(View myview){
