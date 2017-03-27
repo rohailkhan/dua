@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.miwok">
+    package="com.example.android.shifa">
 
     <application
         android:allowBackup="true"
@@ -22,20 +22,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.android.shifa.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".one"
+        <activity android:name="com.example.android.shifa.one"
             android:label="Duas for Health ,Introduction"/>
-        <activity android:name=".two"
+        <activity android:name="com.example.android.shifa.two"
             android:label="Dua for Health #1 to #20"/>
-        <activity android:name=".three"
+        <activity android:name="com.example.android.shifa.three"
             android:label="Dua for Health #21 to #40"/>
-        <activity android:name=".four"
+        <activity android:name="com.example.android.shifa.four"
             android:label="Cure from Magic and Jinnat(Shayateen)"></activity>
     </application>
 
