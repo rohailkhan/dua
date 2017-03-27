@@ -47,11 +47,8 @@
         android:id="@+id/four"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
-        android:text="Special Dua for Cure from Magic and Jinnat(Shayateen)"
+        android:text="Special Dua for Cure from Magic & Jinnat(Shayatin)"
         />
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@mipmap/ic_launcher">
+
 
 </LinearLayout>
