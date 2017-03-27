@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView threeview=(TextView)findViewById(R.id.four);
+        TextView threeview=(TextView)findViewById(R.id.three);
         threeview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

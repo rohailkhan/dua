@@ -47,7 +47,7 @@
         android:id="@+id/four"
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
-        android:text="Special Dua for Cure from Magic & Jinnat(Shayatin)"
+        android:text="Special Dua for Cure from Magic and Jinnat(Shayatin)"
         />
 
 
