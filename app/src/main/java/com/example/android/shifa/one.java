@@ -24,12 +24,22 @@ public class one extends AppCompatActivity {
         myarrayList.add("six");
         myarrayList.add("seven");
         myarrayList.add("eigght");
-
         LinearLayout myLinear=(LinearLayout)findViewById(R.id.list);
-        TextView mytext=new TextView(this);
-        mytext.setText(myarrayList.get(0));
-        
-        myLinear.addView(mytext);
+        // Create a variable to keep track of the current index position
+             int index = 0;
+
+                        // Keep looping until we've reached the end of the list (which means keep looping
+                             // as long as the current index position is less than the length of the list)
+                                while (index < myarrayList.size()) {
+             // Create a new TextView
+                            TextView wordView = new TextView(this);
+
+                            wordView.setText(myarrayList.get(index));
+                myLinear.addView(wordView);
+                     // Increment the index variable by 1
+                                     index++;
+
+        }
 
 
     }
