@@ -3,7 +3,9 @@ package com.example.android.shifa;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -15,34 +17,28 @@ public class one extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.duas_list);
 
-        ArrayList<String> myarrayList= new ArrayList<String>();
-        myarrayList.add("one");
-        myarrayList.add("two");
-        myarrayList.add("three");
-        myarrayList.add("four");
-        myarrayList.add("five");
-        myarrayList.add("six");
-        myarrayList.add("seven");
-        myarrayList.add("eigght");
-        LinearLayout myLinear=(LinearLayout)findViewById(R.id.list);
-        // Create a variable to keep track of the current index position
-             int index = 0;
+        ArrayList<String> myArrayList=new ArrayList<String>();
+        myArrayList.add("one");
+        myArrayList.add("two");
+        myArrayList.add("three");
+        myArrayList.add("four");
+        myArrayList.add("five");
+        myArrayList.add("six");
+        myArrayList.add("seven");
+        myArrayList.add("eight");
+        myArrayList.add("nine");
+        myArrayList.add("ten");
 
-                        // Keep looping until we've reached the end of the list (which means keep looping
-                             // as long as the current index position is less than the length of the list)
-                                while (index < myarrayList.size()) {
-             // Create a new TextView
-                            TextView wordView = new TextView(this);
+        ArrayAdapter<String> myadapter=new ArrayAdapter<String>(this,R.layout.duas_list,myArrayList);
+        ListView mylistview=(ListView)findViewById(R.id.list);
+        mylistview.setAdapter(myadapter);
 
-                            wordView.setText(myarrayList.get(index));
-                myLinear.addView(wordView);
-                     // Increment the index variable by 1
-                                     index++;
+}
 
-        }
+
+
+
 
 
     }
-
-
 }
